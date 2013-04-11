@@ -1,5 +1,6 @@
 var repos = [
-    "xen-org"
+    "xen-api",
+    "xen-api-libs"
 ]
 
 function handle_results(obj) {
