@@ -3,7 +3,7 @@ var repos = [
 ]
 
 function handle_results(obj) {
-    alert(JSON.stringify(obj.meta));
+    $("div#debug").html(JSON.stringify(obj.meta));
     $("div#results").html(JSON.stringify(obj.data));
 }
 
