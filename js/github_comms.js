@@ -8,6 +8,8 @@ function handle_results(obj) {
 }
 
 function go() {
+    $("div#debug").html("Loading...");
+    $("div#results").html("Loading...");
     var username = $("input#user").val();
     var password = $("input#pass").val();
     $.ajax({
