@@ -7,13 +7,22 @@
         <script type="text/javascript" src="js/github_comms.js"/></script>
     </head>
     <body>
-        <form name="auth">
-            <input type="text" id="user">
-            <input type="password" id="pass">
-            <input type="button" id="go" value="go">
-        </form>
-        <div id="debug">Debug here</div>
-        <br>
-        <div id="results">Results here</div>
+        <div class="row-fluid">
+            <div class="span6">
+                <form name="auth">
+                    <input type="text" id="user">
+                    <input type="password" id="pass">
+                    <input type="button" id="go" value="go">
+                </form>
+            </div>
+            <div class="span6">
+                <div id="debug">Debug here</div>
+            </div>
+        </div>
+        <div class="row-fluid">
+            <div class="span12">
+                <div id="results">Results here</div>
+            </div>
+        </div>
     </body>
 </html>
